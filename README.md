@@ -11,12 +11,12 @@ seperti yang telah dispesifikasikan. Aamiin
 ## Penjelasan Desain Program
 Terdapat 8 kelas pada program ini, antara lain:
 1. Character
-   - Kelas Character memiliki atribut-atribut seperti nama, jenisKelamin, role, hp, atk, dan koin yang merepresentasikan karakter dalam suatu permainan.
-   - Atribut-atribut ini dapat diakses dan dimodifikasi melalui metode-metode getter dan setter yang disediakan.
+- Kelas Character memiliki atribut-atribut seperti nama, jenisKelamin, role, hp, atk, dan koin yang merepresentasikan karakter dalam suatu permainan.
+- Atribut-atribut ini dapat diakses dan dimodifikasi melalui metode-metode getter dan setter yang disediakan.
 2. NPC
-   - Kelas NPC merupakan turunan dari kelas Character dalam Java.
-   - Kelas ini memiliki atribut lokasi dan deskripsi.
-   - Terdapat metode getter dan setter untuk atribut lokasi dan deskripsi.
+- Kelas NPC merupakan turunan dari kelas Character dalam Java.
+- Kelas ini memiliki atribut lokasi dan deskripsi.
+- Terdapat metode getter dan setter untuk atribut lokasi dan deskripsi.
 3. Item
    - kelas Item merepresentasikan sebuah item yang dapat digunakan oleh karakter.
    - Kelas ini memiliki atribut nama, deskripsi, harga, dan jumlah untuk mendefinisikan karakteristik item.

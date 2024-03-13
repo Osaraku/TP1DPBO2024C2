@@ -1,15 +1,19 @@
 # TP1DPBO2024C2
 
 ## Janji
+
 Saya Muhamad Tio Ariyanto [2201718] mengerjakan soal Tugas Praktikum 1
 dalam mata kuliah DPBO untuk keberkahanNya saya tidak melakukan kecurangan
 seperti yang telah dispesifikasikan. Aamiin
 
 ## Desain Program
+
 ![TP1DPBO drawio](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/6461826e-d58d-4797-a452-f315512886b7)
 
 ## Penjelasan Desain Program
+
 Terdapat 8 kelas pada program ini, antara lain:
+
 1. Character
    - Kelas Character memiliki atribut-atribut seperti nama, jenisKelamin, role, hp, atk, dan koin yang merepresentasikan karakter dalam suatu permainan.
    - Atribut-atribut ini dapat diakses dan dimodifikasi melalui metode-metode getter dan setter yang disediakan.
@@ -37,12 +41,14 @@ Terdapat 8 kelas pada program ini, antara lain:
    - Terdapat konstruktor yang digunakan untuk menginisialisasi objek dengan nilai-nilai atribut yang diberikan.
    - Terdapat metode getter dan setter untuk atribut senjata dan itemDrop.
    - Terdapat metode menerimaDamage yang digunakan untuk mengurangi jumlah HP karakter saat menerima serangan dari musuh.
-7.  PartyMember
-   - Kelas PartyMember merupakan turunan dari kelas Character.
-   - Kelas ini memiliki atribut senjata dan penyimpanan (daftar item yang disimpan).
-   - Terdapat metode untuk menambah dan menghapus item dalam daftar penyimpanan.
-   - Metode menerimaDamage digunakan untuk mengurangi hit points (hp) saat menerima serangan musuh.
-   - Terdapat metode untuk melakukan transaksi jual beli item.
+7. PartyMember
+
+- Kelas PartyMember merupakan turunan dari kelas Character.
+- Kelas ini memiliki atribut senjata dan penyimpanan (daftar item yang disimpan).
+- Terdapat metode untuk menambah dan menghapus item dalam daftar penyimpanan.
+- Metode menerimaDamage digunakan untuk mengurangi hit points (hp) saat menerima serangan musuh.
+- Terdapat metode untuk melakukan transaksi jual beli item.
+
 8. PartyLeader
    - Kelas PartyLeader merupakan turunan dari kelas Character.
    - Kelas ini memiliki atribut tambahan seperti senjata, anggota, penyimpanan, listQuest, dan partyLevel.
@@ -50,6 +56,7 @@ Terdapat 8 kelas pada program ini, antara lain:
    - Terdapat metode untuk menerima damage, jual beli item, dan manipulasi koin.
 
 ## Dokumentasi
+
 ![screenshot-1](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/9bab655b-12c7-466f-a50d-9551c48e8619)
 ![screenshot-2](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/dceab8fb-631d-4329-b22b-ebc85d860584)
 ![screenshot-3](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/89dbd434-3b40-4e41-8cb0-cd314f1ef371)

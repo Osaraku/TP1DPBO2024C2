@@ -212,8 +212,8 @@ public class Main {
         System.out.println("- Bertemu dengan Thor " + npc3.getDeskripsi());
 
         System.out.print("- Stat Thor -> ");
-        System.out.println("Senjata: " + leader.getSenjata() + ", HP: " + leader.getHp() + ", ATK: "
-                + leader.getAtk() + ", Koin: " + leader.getKoin());
+        System.out.println("Senjata: " + npc3.getSenjata() + ", HP: " + npc3.getHp() + ", ATK: "
+                + npc3.getAtk() + ", Koin: " + npc3.getKoin());
 
         // Pertarungan dimulai
         System.out.println();

@@ -50,6 +50,43 @@ Terdapat 8 kelas pada program ini, antara lain:
 - Terdapat metode untuk menerima damage, jual beli item, dan manipulasi koin.
 
 ## Alur Program
+1. Pertama, objek PartyLeader dengan atribut yang diberikan seperti nama, jenis kelamin, peran, HP, ATK, koin, senjata, dan level party dibuat dengan nama "Nova".
+2. Selanjutnya, objek PartyMember dibuat dengan atribut yang diberikan seperti nama, jenis kelamin, peran, HP, ATK, koin, dan senjata. Terdapat tiga anggota party yaitu "Jane", "Sora", dan "Aloy".
+3. Anggota party ditambahkan ke party leader menggunakan metode tambahAnggota.
+4. Objek Item dibuat dengan atribut seperti nama, deskripsi, harga, dan jumlah.
+5. Item-item ditambahkan ke penyimpanan party leader dan party member menggunakan metode tambahItem.
+6. Informasi party leader dan anggota ditampilkan dengan menggunakan metode getter untuk mengakses atribut-atribut yang relevan.
+7. Penyimpanan item partyLeader dan anggota ditampilkan dengan menggunakan metode getter untuk mengakses atribut-atribut yang relevan.
+8. Program mencetak aktivitas yang dilakukan saat berpetualang.
+9. Objek NPC Friendly dengan nama "Adrian" dibuat dengan atribut yang diberikan seperti nama, jenis kelamin, peran, HP, ATK, koin, lokasi, dan deskripsi.
+10. Objek Item dengan nama "Health Potion", "Strength Potion", dan "Dragon Heart" dibuat dengan atribut yang diberikan seperti nama, deskripsi, harga, dan jumlah.
+11. Objek Quest dengan nama "Gather Herbs" dibuat dengan atribut yang diberikan seperti nama, deskripsi, dan syarat ambil.
+12. Item-item ditambahkan ke penyimpanan NPC "Adrian" menggunakan metode tambahItem.
+13. Quest ditambahkan ke list quest NPC "Adrian" menggunakan metode tambahQuest.
+14. Informasi stat NPC "Adrian" ditampilkan menggunakan metode getter untuk mengakses atribut-atribut yang relevan.
+15. Dilakukan transaksi jual dan beli item antara NPC "Adrian" dan party leader menggunakan metode jualItem dan beliItem. 
+16. Party leader menggunakan item "Dragon Heart" dengan menghapus item tersebut dari penyimpanan menggunakan metode hapusItem. Selain itu, HP party leader juga ditingkatkan karena menggunakan item Dragon Heart.
+17. Informasi status party leader setelah menggunakan item ditampilkan menggunakan metode getter untuk mengakses atribut-atribut yang relevan.
+18. Quest "Gather Herbs" diambil dari NPC "Adrian" dan ditambahkan ke list quest party leader menggunakan metode tambahQuest.
+19. List quest party leader ditampilkan.
+20. Program mencetak aktivitas berikutnya yaitu pergi ke "Stone Bridge".
+21. Objek NPC Friendly dengan nama "Lyra" dibuat dengan atribut yang diberikan seperti nama, jenis kelamin, peran, HP, ATK, koin, lokasi, dan deskripsi.
+22. Objek Item dengan nama "Travel Journal" dibuat dengan atribut yang diberikan seperti nama, deskripsi, harga, dan jumlah.
+23. Objek Quest dengan nama "Kill the Monsters" dibuat dengan atribut yang diberikan seperti nama, deskripsi, dan syarat ambil.
+24. Item ditambahkan ke penyimpanan NPC "Lyra" menggunakan metode tambahItem.
+25. Quest ditambahkan ke list quest NPC "Lyra" menggunakan metode tambahQuest.
+26. Informasi stat NPC "Lyra" ditampilkan menggunakan metode getter untuk mengakses atribut-atribut yang relevan.
+27. Melakukan transaksi pembelian item dari NPC "Lyra" oleh anggota party menggunakan metode beliItem.
+28. Jika party leader memiliki level party yang mencukupi, quest "Kill the Monsters" ditambahkan ke list quest party leader menggunakan metode tambahQuest.
+29. Program mencetak aktivitas berikutnya yaitu pergi ke "Shadow Forest".
+30. NPC musuh "Thor" ditambahkan sebagai bos di lokasi "Shadow Forest".
+31. Pertarungan dimulai antara party dan NPC "Thor".
+32. Selama pertarungan, setiap anggota party dan NPC "Thor" saling menyerang dan menerima serangan.
+33. Setelah pertarungan selesai, party berhasil mengalahkan NPC "Thor".
+34. Party menerima hadiah berupa item yang dijatuhkan oleh NPC "Thor". Item tersebut adalah "Fresh Meat".
+35. Item "Fresh Meat" ditambahkan ke penyimpanan party leader menggunakan metode tambahItem.
+36. Level party leader ditingkatkan dengan menambahkan 1 ke level saat ini menggunakan setPartyLevel.
+37. Informasi detail tentang party leader dan anggota party ditampilkan.
 
 ## Dokumentasi
 ![screenshot-1](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/9bab655b-12c7-466f-a50d-9551c48e8619)

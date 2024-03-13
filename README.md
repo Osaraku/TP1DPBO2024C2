@@ -49,6 +49,8 @@ Terdapat 8 kelas pada program ini, antara lain:
    - Terdapat metode untuk menambah dan menghapus anggota, item, serta quest dalam kelompok.
    - Terdapat metode untuk menerima damage, jual beli item, dan manipulasi koin.
 
+## Alur Program
+
 ## Dokumentasi
 ![screenshot-1](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/9bab655b-12c7-466f-a50d-9551c48e8619)
 ![screenshot-2](https://github.com/Osaraku/TP1DPBO2024C2/assets/117560099/dceab8fb-631d-4329-b22b-ebc85d860584)
